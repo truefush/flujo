@@ -2,7 +2,7 @@
 alert("0 to 2 lose | 3 to 5 pass");
 let firstName = prompt("add your complete name");
 let nameCollage =prompt("add name of your school"); 
-let rating = prompt("add your rating from 0 to 5");
+let rating = parseInt(prompt("add your rating from 0 to 5"));
 /*algorit and print */
 if (rating >= 3 && rating <= 5){
     alert("PASS SUBJECT");
